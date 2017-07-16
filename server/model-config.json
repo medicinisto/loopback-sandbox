@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "ref": {
+    "dataSource": "db",
+    "public": true
+  },
+  "mod": {
+    "dataSource": "db",
+    "public": true
   }
 }

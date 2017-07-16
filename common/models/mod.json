@@ -1,0 +1,23 @@
+{
+  "name": "mod",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "refs": {
+      "type": "referencesMany",
+      "model": "ref"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
